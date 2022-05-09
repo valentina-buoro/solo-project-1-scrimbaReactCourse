@@ -1,10 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+  display: flex;
+  flex-direction: column;
+  color: #F5F5F5;
+
+  
+  
+}
+
+.info--container{
+  background-color: #1A1B21;
+  margin: auto;
+  margin-top: 30px;
+  width: 317px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+  
+}
+.info--container > img{
+  width: 387px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+
+}
+.info--container > h4{
+  color: #F3BF99;
+}
+.button{
+  background-color: #1A1B21;
+  margin: auto;
+  width: 317px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.button > button{
+  height: 34px;
+  width: 115px;
+  border-radius: 6px;
+  padding: 9px, 13px, 9px, 11px;
+  margin: auto;
+  
+}
+.email{
+  background: #5093E2;
+  height: 34px;
+  width: 115px;
+  border-radius: 6px;
+  padding: 9px, 13px, 9px, 11px;
+  flex-direction: row;
+  margin-right: 15px;
+
+
+}
+.about--container{
+  background-color: #1A1B21;
+  width: 317px;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-block: 5px
+}
+.interests--container{
+  background-color: #1A1B21;
+  width: 317px;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-block: 5px;
+}
+.footer--container{
+  background-color: #1A1B21;
+  width: 317px;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+}
+.footer--container > img{
+  margin: 15px;
 }
 
 code {
